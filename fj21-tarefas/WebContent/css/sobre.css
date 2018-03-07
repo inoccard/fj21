@@ -1,0 +1,98 @@
+body{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+  height: 1508px;
+	background-image: url(../img/body-background.png); /* imagem do fundo*/
+
+	
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; /* fontes ou tipos de letras*/
+  border-width: 08px; /* largura da borda*/
+}	
+h1 {
+  box-shadow: 03px 03px #777; /*Sombras*/
+  padding: 06px;
+  margin: 06px;
+	width: justify; /* largura*/
+	height: 34px; /* altura*/
+	border-radius: 40px; /* borda arredondada*/
+  text-align: left; /* alinhar texto para esquerda*/
+ 	border-width: 5px; /* largura da borda*/
+	font-family: sans-serif;
+  background-color: lightpink;
+}
+
+h2 {
+  box-shadow: 03px 03px #777;
+  padding: 06px;
+  margin: 06px;
+  width: justify;
+	height:32px;
+	border-radius: 20px;
+  border-width: 5px;
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+
+p {
+  padding: 5px 15px; /* espaçamento de cima(padding-top), baixo(padding-bottom): esquerda(padding-left), direita(padding-tight); */
+  text-align:  justify;
+  text-indent: 30px; /* tamanho da margem da primeira linha do texto */
+  word-spacing: 5px; /* tamanho do espaço entre cada palavra */
+}
+figure {
+  border-radius: 15px;
+  background-color: #F2EDED;
+  border: 3px groove #ccc;
+  text-align: center;
+  padding: 12px;
+}
+
+figcaption {
+  margin-top: 0.2px;
+  font-style: italic;
+}
+img{
+  border-radius: 5px;
+}
+#centro-distribuicao {
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+}
+#familia-pelho {
+  height:200px;
+  padding-left: 10px;
+  float: right;
+  margin: 0 4.5px 10px 10px;
+  width: 300.1px;
+}
+#familia-pelho img{
+  margin: auto;
+  width: 220px;
+}
+#rodape {
+  color: #777;
+  margin: 10px 0;
+  padding: 20px 0;
+}
+#rodape img {
+  margin-right: 16px;
+  vertical-align: middle;
+  width: 94px;
+}
+.container {
+  margin: 0 auto;
+  width: 943px;
+}
+header {
+  border-radius: 06px;
+  box-shadow: 0px 03px 03px 03px #777;
+  position: relative;
+}
+p:first-letter {
+  font-weight: bold;
+}
+h1 + p {
+  text-indent: 0;
+}

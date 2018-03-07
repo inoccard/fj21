@@ -1,0 +1,32 @@
+body {
+  color: #333333;
+  background-color: #999999;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.sacola {
+  background: url(../img/sacola.png) no-repeat top right;
+
+  font-size: 14px;
+  padding-right: 35px;
+  text-align: right;
+  width: 140px;
+}
+.menu-opcoes ul {
+  font-size: 15px;
+}
+.menu-departamentos li ul {
+  display: none; /*esconde a sublista*/
+}
+.menu-departamentos li:hover ul {
+  display: block; /*fixa a sublista para ser vista*/ 
+}
+.menu-departamentos ul ul li {
+  background-color: #dcdcdc; /*fundo da sublista*/
+}
+
+/*Use o :before para injetar um conteúdo novo via propriedade content no CSS:*/
+.menu-departamentos ul li 	li a:before { /*adiciona antes de alguma coisa*/
+  content: '*';
+   opacity: 0.5;
+}

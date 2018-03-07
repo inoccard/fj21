@@ -1,0 +1,52 @@
+	/* Normalizando os estilos CSS */
+html,
+body,
+header,
+div,
+h1,
+p,
+a,
+video {
+ margin: 0;
+ padding: 0;
+}
+	body{
+		background-color: #FF6666;
+  		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	}
+	nav ul{
+		height: 52.6px;
+
+	}
+	nav ul li{
+		display: inline;
+	}
+	nav ul li a{
+		position: relative;
+	}
+	.direita {
+	  padding-top: 4.5px;
+	  padding-right: 2.5px;
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	}
+	.esq {
+	  padding-top: 4.5px;
+	  padding-right: 2.5px;
+	  position: relative;
+	  top: 0;
+	  right: 0;
+	}
+	.afasta{
+		margin-right: 4px;
+		margin-top: 0 auto;
+		padding-left: 6px;
+		margin-bottom: 4px;
+	}
+	.esq2{
+        padding-top: 12px;
+    }
+    .direita2{
+        padding-top: 12px;
+    }

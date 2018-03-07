@@ -1,0 +1,461 @@
+/ *! Normalize.css v5.0.0 | Licença MIT | Github.com/necolas/normalize.css * /
+
+-benzóico.
+ * 1. Altere a família de fontes padrão em todos os navegadores (opinativo).
+ * 2. Corrija a altura da linha em todos os navegadores.
+ * 3. Impedir ajustes de tamanho de fonte após mudanças de orientação em
+ * IE no Windows Phone e no iOS.
+ -benzóico.
+
+/ * Documento
+   ============================================================================== ======================== * /
+
+Html {
+  Font-family: sem-serif; / * 1 * /
+  Altura de linha: 1,15; / * 2 * /
+  -ms-text-size-adjust: 100%; / * 3 * /
+  -webkit-text-size-adjust: 100%; / * 3 * /
+}
+
+/ * Seções
+   ============================================================================== ======================== * /
+
+-benzóico.
+ * Remover a margem em todos os navegadores (opinativo).
+ -benzóico.
+
+Corpo
+  Margem: 0;
+}
+
+-benzóico.
+ * Adicione a exibição correta no IE 9-.
+ -benzóico.
+
+artigo,
+De lado
+rodapé,
+cabeçalho,
+Nav
+seção {
+  Display: bloco;
+}
+
+-benzóico.
+ * Corrija o tamanho ea margem da fonte nos elementos `h1` dentro da` seção` e
+ * Contextos `article` no Chrome, Firefox e Safari.
+ -benzóico.
+
+H1 {
+  Font-size: 2em;
+  Margem: 0,67em 0;
+}
+
+/ * Agrupar conteúdo
+   ============================================================================== ======================== * /
+
+-benzóico.
+ * Adicione a exibição correta no IE 9-.
+ * 1. Adicione a exibição correta no IE.
+ -benzóico.
+
+Figcaption,
+figura,
+Main {/ * 1 * /
+  Display: bloco;
+}
+
+-benzóico.
+ * Adicione a margem correta no IE 8.
+ -benzóico.
+
+Figura {
+  Margem: 1em 40px;
+}
+
+-benzóico.
+ * 1. Adicione o dimensionamento de caixa correto no Firefox.
+ * 2. Mostrar o estouro em Edge e IE.
+ -benzóico.
+
+Hr
+  Caixa de dimensionamento: content-box; / * 1 * /
+  Altura: 0; / * 1 * /
+  Excesso: visível; / * 2 * /
+}
+
+-benzóico.
+ * 1. Corrija a herança eo dimensionamento do tamanho da fonte em todos os navegadores.
+ * 2. Corrigir o tamanho de letra `em` ímpar em todos os navegadores.
+ -benzóico.
+
+Pre {
+  Font-family: monospace, monospace; / * 1 * /
+  Font-size: 1em; / * 2 * /
+}
+
+/ * Semântica de nível de texto
+   ============================================================================== ======================== * /
+
+-benzóico.
+ * 1. Remover o fundo cinza em links ativos no IE 10.
+ * 2. Remova as lacunas no link sublinhado no iOS 8+ e no Safari 8+.
+ -benzóico.
+
+uma {
+  Fundo-cor: transparente; / * 1 * /
+  -webkit-text-decoration-skip: objetos; / * 2 * /
+}
+
+-benzóico.
+ * Remover o esboço em links focados quando eles também estão ativos ou pairou
+ * Em todos os navegadores (opinativo).
+ -benzóico.
+
+A: ativo,
+A: hover {
+  Esboço-largura: 0;
+}
+
+-benzóico.
+ * 1. Remova a borda inferior no Firefox 39-.
+ * 2. Adicione a decoração de texto correta no Chrome, Edge, IE, Opera e Safari.
+ -benzóico.
+
+Abbr [title] {
+  Border-bottom: none; / * 1 * /
+  Text-decoration: sublinhado; / * 2 * /
+  Text-decoration: sublinhado pontilhado; / * 2 * /
+}
+
+-benzóico.
+ * Impedir a aplicação duplicada de `bold 'pela regra seguinte no Safari 6.
+ -benzóico.
+
+B,
+Forte {
+  Font-weight: inherit;
+}
+
+-benzóico.
+ * Adicione o peso da fonte correta no Chrome, Edge e Safari.
+ -benzóico.
+
+B,
+Forte {
+  Font-weight: bold (realce);
+}
+
+-benzóico.
+ * 1. Corrija a herança eo dimensionamento do tamanho da fonte em todos os navegadores.
+ * 2. Corrigir o tamanho de letra `em` ímpar em todos os navegadores.
+ -benzóico.
+
+código,
+Kbd,
+Samp {
+  Font-family: monospace, monospace; / * 1 * /
+  Font-size: 1em; / * 2 * /
+}
+
+-benzóico.
+ * Adicione o estilo de fonte correta no Android 4.3-.
+ -benzóico.
+
+Dfn {
+  Font-style: itálico;
+}
+
+-benzóico.
+ * Adicione o fundo correto e cor no IE 9-.
+ -benzóico.
+
+Marca {
+  Background-color: # ff0;
+  Cor: # 000;
+}
+
+-benzóico.
+ * Adicione o tamanho de fonte correto em todos os navegadores.
+ -benzóico.
+
+pequeno {
+  Tamanho da fonte: 80%;
+}
+
+-benzóico.
+ * Impedir que os elementos `sub` e` sup` afetem a altura da linha em
+ * Todos os navegadores.
+ -benzóico.
+
+sub,
+Sup
+  Font-size: 75%;
+  Linha-altura: 0;
+  Posição: relativa;
+  Vertical-alinhamento: linha de base;
+}
+
+Sub
+  Fundo: -0,25em;
+}
+
+Sup
+  Top: -0.5em;
+}
+
+/ * Conteúdo incorporado
+   ============================================================================== ======================== * /
+
+-benzóico.
+ * Adicione a exibição correta no IE 9-.
+ -benzóico.
+
+Áudio,
+vídeo {
+  Display: inline-block;
+}
+
+-benzóico.
+ * Adicione a exibição correta no iOS 4-7.
+ -benzóico.
+
+Áudio: não ([controles]) {
+  Display: none;
+  Altura: 0;
+}
+
+-benzóico.
+ * Remover a borda em imagens dentro de links no IE 10-.
+ -benzóico.
+
+Img {
+  Border-style: nenhum;
+}
+
+-benzóico.
+ * Ocultar o estouro no IE.
+ -benzóico.
+
+Svg: not (: root) {
+  Estouro: oculto;
+}
+
+/ * Formulários
+   ============================================================================== ======================== * /
+
+-benzóico.
+ * 1. Alterar os estilos de fonte em todos os navegadores (opinativo).
+ * 2. Remover a margem no Firefox e Safari.
+ -benzóico.
+
+botão,
+entrada,
+Optgroup,
+Selecione,
+Área de texto {
+  Font-family: sem-serif; / * 1 * /
+  Font-size: 100%; / * 1 * /
+  Altura de linha: 1,15; / * 1 * /
+  Margem: 0; / * 2 * /
+}
+
+-benzóico.
+ * Mostrar o estouro no IE.
+ * 1. Mostra o estouro no Edge.
+ -benzóico.
+
+botão,
+Entrada {/ * 1 * /
+  Excesso: visível;
+}
+
+-benzóico.
+ * Remover a herança da transformação de texto no Edge, Firefox e IE.
+ * 1. Remover a herança da transformação de texto no Firefox.
+ -benzóico.
+
+botão,
+Selecione {/ * 1 * /
+  Text-transform: none;
+}
+
+-benzóico.
+ * 1. Evitar um bug do WebKit onde (2) destrói `audio` e` video` nativos
+ * Controles no Android 4.
+ * 2. Corrija a incapacidade de estilo de tipos clicáveis ​​no iOS e Safari.
+ -benzóico.
+
+botão,
+Html [tipo = "botão"], / * 1 * /
+[Type = "reset"],
+[Type = "submit"] {
+  -webkit-aparência: botão; / * 2 * /
+}
+
+-benzóico.
+ * Remover a borda interna e preenchimento no Firefox.
+ -benzóico.
+
+Botão :: - moz-foco-interno,
+[Tipo = "botão"] :: - moz-foco-interno,
+[Type = "reset"] :: - moz-foco-interno,
+[Type = "submit"] :: - moz-foco-interno {
+  Border-style: nenhum;
+  Estofamento: 0;
+}
+
+-benzóico.
+ * Restaurar os estilos de foco não definidos pela regra anterior.
+ -benzóico.
+
+Botão: -moz-focusring,
+[Type = "botão"]: - moz-focusring,
+[Type = "reset"]: - moz-focusring,
+[Type = "submit"]: - moz-focusring {
+  Esboço: 1px pontilhado ButtonText;
+}
+
+-benzóico.
+ * Alterar a borda, margem e preenchimento em todos os navegadores (opinativo).
+ -benzóico.
+
+Fieldset {
+  Border: 1px sólido # c0c0c0;
+  Margem: 0 2px;
+  Estofamento: 0,35em 0,625em 0,75em;
+}
+
+-benzóico.
+ * 1. Corrija o envoltório de texto no Edge e no IE.
+ * 2. Corrija a herança de cores dos elementos `fieldset` no IE.
+ * 3. Remova o preenchimento para que os desenvolvedores não sejam pegos quando eles zeram
+ * `Fieldset` elementos em todos os navegadores.
+ -benzóico.
+
+lenda {
+  Tamanho da caixa: caixa de borda; / * 1 * /
+  Color: inherit; / * 2 * /
+  Display: tabela; / * 1 * /
+  Largura máxima: 100%; / * 1 * /
+  Estofamento: 0; / * 3 * /
+  Espaço em branco: normal; / * 1 * /
+}
+
+-benzóico.
+ * 1. Adicione a exibição correta no IE 9-.
+ * 2. Adicione o alinhamento vertical correto no Chrome, Firefox e Opera.
+ -benzóico.
+
+progresso {
+  Display: inline-block; / * 1 * /
+  Vertical-alinhamento: linha de base; / * 2 * /
+}
+
+-benzóico.
+ * Remover a barra de rolagem vertical padrão no IE.
+ -benzóico.
+
+Área de texto {
+  Estouro: auto;
+}
+
+-benzóico.
+ * 1. Adicione o dimensionamento de caixa correto no IE 10-.
+ * 2. Remova o estofamento no IE 10-.
+ -benzóico.
+
+[Type = "checkbox"],
+[Type = "radio"] {
+  Tamanho da caixa: caixa de borda; / * 1 * /
+  Estofamento: 0; / * 2 * /
+}
+
+-benzóico.
+ * Corrigir o estilo de cursor dos botões de incremento e decréscimo no Chrome.
+ -benzóico.
+
+[Tipo = "número"] :: - webkit-inner-spin-botão,
+[Tipo = "número"] :: - webkit-outer-spin-button {
+  Altura: auto;
+}
+
+-benzóico.
+ * 1. Corrija a aparência estranha no Chrome e no Safari.
+ * 2. Corrija o estilo do contorno no Safari.
+ -benzóico.
+
+[Type = "search"] {
+  -webkit-appearance: textfield; / * 1 * /
+  Outline-offset: -2px; / * 2 * /
+}
+
+-benzóico.
+ * Remover o preenchimento interno e cancelar botões no Chrome e Safari no macOS.
+ -benzóico.
+
+[Type = "search"] :: - webkit-search-cancel-button,
+[Type = "search"] :: - webkit-search-decoration {
+  -webkit-aparência: nenhum;
+}
+
+-benzóico.
+ * 1. Corrija a incapacidade de estilo de tipos clicáveis ​​no iOS e Safari.
+ * 2. Altere as propriedades da fonte para 'herdar' no Safari.
+ -benzóico.
+
+:: - webkit-file-upload-button {
+  -webkit-aparência: botão; / * 1 * /
+  Font: inherit; / * 2 * /
+}
+
+/ * Interativo
+   ============================================================================== ======================== * /
+
+-benzóico.
+ * Adicione a exibição correta no IE 9-.
+ * 1. Adicione a exibição correta no Edge, IE e Firefox.
+ -benzóico.
+
+Detalhes, / * 1 * /
+cardápio {
+  Display: bloco;
+}
+
+-benzóico.
+ * Adicione a exibição correta em todos os navegadores.
+ -benzóico.
+
+Resumo {
+  Display: item de lista;
+}
+
+/ * Scripting
+   ============================================================================== ======================== * /
+
+-benzóico.
+ * Adicione a exibição correta no IE 9-.
+ -benzóico.
+
+lona {
+  Display: inline-block;
+}
+
+-benzóico.
+ * Adicione a exibição correta no IE.
+ -benzóico.
+
+Modelo
+  Display: none;
+}
+
+/ * Escondido
+   ============================================================================== ======================== * /
+
+-benzóico.
+ * Adicione a exibição correta no IE 10-.
+ -benzóico.
+
+[Hidden] {
+  Display: none;
+}
